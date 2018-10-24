@@ -11,8 +11,9 @@
 <body>
 @include('layouts._head')
 <div class="container">
+  @include('shared._messages')
   @yield('content')
+  @include('layouts._foot')
 </div>
-@include('layouts._foot')
 </body>
 </html>
